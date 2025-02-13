@@ -1,0 +1,237 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  color: #333;
+  padding-top: 50px; /* Prevent content from being hidden behind fixed header */
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 10px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ff6f61;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-top: 80px; /* Offset content under header */
+}
+
+section {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px); /* Reflective effect */
+}
+
+h1, h2, h3, h4 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: disc; /* Bullet points */
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px; /* Reduced space between list items */
+}
+
+strong {
+  font-weight: bold;
+}
+
+/* Display job title and date on the same line for Experience */
+#experience ul li span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#experience ul li span h3 {
+  margin-right: 10px;
+  flex-grow: 1; /* Ensure h3 takes as much space as possible */
+}
+
+#experience ul li p#date {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Display program and date on the same line for Education */
+#education ul li span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#education ul li h3 {
+  margin-right: 10px;
+  flex-grow: 1; /* Ensure h3 takes as much space as possible */
+}
+
+#education ul li p#date {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Styling for links */
+a {
+  text-decoration: none;
+  color: #0077cc;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Keep the Experience section simple (no box-style) */
+#experience ul li h2 {
+  font-size: 22px;
+  color: #333;
+}
+
+#experience ul li p {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Centered and responsive layout */
+@media (max-width: 768px) {
+  nav ul {
+      flex-direction: column;
+  }
+
+  section {
+      padding: 10px;
+  }
+
+  h1 {
+      font-size: 24px;
+  }
+
+  h2, h3, h4 {
+      font-size: 20px;
+  }
+
+  ul li {
+      font-size: 16px;
+  }
+}
+
+/* Skills section styling */
+section#skills ul li {
+  margin-bottom: 12px;
+}
+
+section#skills ul li strong {
+  font-size: 16px;
+}
+
+/* Contact Section */
+section#contact ul li {
+  margin-bottom: 10px;
+}
+
+section#contact a {
+  font-size: 16px;
+}
+
+/* Footer or Last Section */
+footer {
+  margin-top: 50px;
+  text-align: center;
+  color: #777;
+}
+
+/* About Section Styling */
+#about .about-content {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between the image and text */
+}
+
+#about .about-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#about .about-text h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#about .about-text p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Contact Section */
+section#contact ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+section#contact a {
+  text-decoration: none;
+  color: #0077cc;
+  display: flex;
+  align-items: center;
+}
+
+section#contact a:hover {
+  text-decoration: underline;
+}
+
+section#contact i {
+  margin-right: 10px;
+  font-size: 18px; /* Icon size */
+}
+
+/* Hover effect for icons */
+section#contact a:hover i {
+  color: #ff6f61;
+}
