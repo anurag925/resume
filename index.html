@@ -1,165 +1,516 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" class="scroll-smooth">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Anurag Upadhyay</title>
-  <link rel="stylesheet" href="styles.css">
-  <!-- Font Awesome CDN for icons -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-</head>
-
-
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section id="about">
-      <h1>About Me</h1>
-      <div class="about-content">
-        <img src="profile.jpeg" alt="Anurag Upadhyay" class="about-img">
-        <div class="about-text">
-          <h2>Anurag Upadhyay</h2>
-          <p>Results-driven Senior Software Engineer with 4+ years of expertise in Golang, Ruby on Rails, and
-            cloud-native
-            architectures. Proven track record in designing high-throughput systems processing 1000+ requests/second and
-            leading development of mission-critical FinTech platforms. Successfully improved system efficiencies by up
-            to
-            97% while maintaining 99.9% uptime.</p>
-        </div>
-      </div>
-    </section>
-    <section id="experience">
-      <h1>Experience</h1>
-      <ul>
-        <li>
-          <span>
-            <h3>Senior Software Engineer, Shiba Inu</h3>
-            <p id="date">Jan 2021 - Present</p>
-          </span>
-
-          <ul>
-            <li>Architected and implemented scalable ticketing system handling 100,000+ daily messages through NATS</li>
-            <li>Built high-performance payment infrastructure processing 1000+ transactions/second with Web3 integration
-            </li>
-            <li>Scaled advertising platform to 900+ monthly impressions while maintaining zero downtime</li>
-            <li>Designed and implemented centralized authentication system serving 200+ microservices</li>
-            <li>Led cross-functional teams in implementing distributed system architecture and mentored junior
-              developers</li>
-            <li>Optimized the Admin platform increasing throughput by over 26% and reducing the load on main database by
-              70%</li>
-          </ul>
-        </li>
-        <li>
-          <span>
-            <h3>Senior Software Engineer, Kuvera (Cred)</h3>
-            <p id="date">Sep 2021 - Jun 2024</p>
-          </span>
-          <ul>
-            <li>Spearheaded development of NPS platform from concept to production in 30 days, coordinating across
-              departments</li>
-            <li>Achieved 97% reduction in processing time and 7% overall performance improvement through Rails
-              optimization</li>
-            <li>Maintained critical financial systems at 99.9% uptime while leading successful version upgrades</li>
-            <li>Led a team of 3 engineers in developing EPF and US Stocks trading platforms</li>
-            <li>Implemented various development and optimization methodologies, accelerating delivery timelines by over
-              a week</li>
-          </ul>
-        </li>
-        <li>
-          <span>
-            <h3>Software Engineer, Axelor International</h3>
-            <p id="date">May 2021 - Sep 2021</p>
-          </span>
-          <ul>
-            <li>Built comprehensive GST solutions using Java stack (Guice, JAX-RS) and improved UI/backend integration
-            </li>
-            <li>Reduced customer onboarding time by 2 days through process optimization</li>
-          </ul>
-        </li>
-        <li>
-          <span>
-            <h3>Technical Internships</h3>
-            <p id="date">Mar 2019 - Sep 2020</p>
-          </span>
-          <ul>
-            <li>Pioneered India's first rupee-based stablecoin (ARTH) and built MAHA DAO on Polygon Network at Vezures
-            </li>
-            <li>Developed Python-based cloud security scanner with 35ms latency at CloudDFN</li>
-            <li>Built the entire user lifecycle, including login, logout, and authentication system, while implementing
-              Neo4j-integrated microservices and an OTP authentication system at Upcaliber</li>
-            <li>Enhanced document search efficiency by 80% using Elasticsearch at LectureNotes</li>
-          </ul>
-        </li>
-      </ul>
-    </section>
-    <section id="education">
-      <h1>Education</h1>
-      <ul>
-        <li>
-          <span>
-            <h3>MBA in Finance</h3>
-            <p id="date">2024 - 2026</p>
-          </span>
-          <h4>Indian Institute of Technology - Patna</h4>
-        </li>
-        <li>
-          <span>
-            <h3>B.Tech in Computer Science and Engineering</h3>
-            <p id="date">2017 - 2021</p>
-          </span>
-          <h4>Silicon Institute of Engineering</h4>
-        </li>
-      </ul>
-    </section>
-    <section id="skills">
-      <h1>Technical Skills</h1>
-      <ul>
-        <li><strong>Programming Languages:</strong> Golang, Ruby, Python, Java, JavaScript, TypeScript, Solidity,
-          Haskell</li>
-        <li><strong>Frameworks:</strong> Rails, Echo, React, Next.js, Spring Boot, Flutter</li>
-        <li><strong>Databases:</strong> MySQL, MongoDB, Neo4j, Elasticsearch</li>
-        <li><strong>Infrastructure:</strong> Docker, AWS, Nginx, Prometheus, Grafana, ELK Stack</li>
-        <li><strong>Protocols & Tools:</strong> REST, gRPC, GraphQL, NATS, SQS, SNS, SES</li>
-      </ul>
-    </section>
-    <section id="contact">
-      <h1>Contact Me</h1>
-      <ul>
-        <li>
-          <a href="mailto:anuragle100@gmail.com">
-            <i class="fas fa-envelope"></i> anuragle100@gmail.com
-          </a>
-        </li>
-        <li>
-          <a href="https://linkedin.com/in/anu1rag">
-            <i class="fab fa-linkedin"></i> linkedin.com/in/anu1rag
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/anurag925">
-            <i class="fab fa-github"></i> github.com/anurag925
-          </a>
-        </li>
-        <li>
-          <a href="tel:+917327062264">
-            <i class="fas fa-phone"></i> +917327062264
-          </a>
-        </li>
-      </ul>
-    </section>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anurag Upadhyay | Senior Software Engineer</title>
+    <meta name="description" content="Portfolio of Anurag Upadhyay, Senior Software Engineer specializing in Golang, Rails, and Cloud-Native architectures.">
     
-  </main>
-  <script src="script.js"></script>
-</body>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    },
+                    colors: {
+                        slate: {
+                            850: '#151e2e',
+                            950: '#020617',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom scrollbar for a cleaner look */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #020617;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #334155;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #475569;
+        }
+        
+        .glass-card {
+            background: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-200 selection:bg-indigo-500/30 font-sans antialiased overflow-x-hidden">
+
+    <!-- Background Gradient Mesh -->
+    <div class="fixed inset-0 z-0 pointer-events-none overflow-hidden">
+        <div class="absolute top-0 left-1/4 w-96 h-96 bg-indigo-900/20 rounded-full blur-3xl opacity-50 mix-blend-screen animate-pulse"></div>
+        <div class="absolute bottom-0 right-1/4 w-96 h-96 bg-emerald-900/10 rounded-full blur-3xl opacity-30 mix-blend-screen"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="fixed top-0 w-full z-50 transition-all duration-300 bg-transparent">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-xl font-bold bg-gradient-to-r from-indigo-400 to-emerald-400 bg-clip-text text-transparent cursor-pointer" onclick="window.scrollTo(0,0)">
+                AU.
+            </div>
+            
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex gap-8 text-sm font-medium">
+                <button onclick="scrollToSection('about')" class="hover:text-emerald-400 transition-colors">About</button>
+                <button onclick="scrollToSection('experience')" class="hover:text-emerald-400 transition-colors">Experience</button>
+                <button onclick="scrollToSection('skills')" class="hover:text-emerald-400 transition-colors">Skills</button>
+                <button onclick="scrollToSection('projects')" class="hover:text-emerald-400 transition-colors">Projects</button>
+            </div>
+
+            <a href="mailto:anuragle100@gmail.com" class="px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg text-sm font-medium transition-all shadow-lg shadow-indigo-500/20 flex items-center gap-2">
+                <i data-lucide="mail" class="w-4 h-4"></i> Contact Me
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="about" class="relative z-10 pt-32 pb-20 px-6 max-w-6xl mx-auto">
+        <div class="flex flex-col lg:flex-row items-center gap-12">
+            <div class="flex-1 space-y-6">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-800/50 border border-slate-700 text-emerald-400 text-xs font-medium">
+                    <span class="relative flex h-2 w-2">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                    </span>
+                    Open to Opportunities
+                </div>
+                
+                <h1 class="text-5xl md:text-7xl font-bold tracking-tight text-white leading-tight">
+                    Anurag <span class="text-slate-500">Upadhyay</span>
+                </h1>
+                
+                <p class="text-xl md:text-2xl text-slate-400 max-w-2xl leading-relaxed">
+                    Senior Software Engineer specializing in <span class="text-indigo-400">Golang</span>, <span class="text-indigo-400">Rails</span>, and <span class="text-indigo-400">Cloud-Native</span> architectures. 
+                </p>
+                
+                <p class="text-slate-500 max-w-xl text-lg">
+                    I build high-throughput systems processing 1000+ requests/second and architect mission-critical FinTech platforms with 99.9% uptime.
+                </p>
+
+                <div class="flex gap-4 pt-4">
+                    <a href="https://github.com/anurag925" target="_blank" rel="noreferrer" class="p-3 bg-slate-800 hover:bg-slate-700 rounded-lg transition-colors border border-slate-700 text-slate-300 hover:text-white">
+                        <i data-lucide="github" class="w-5 h-5"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/anu1rag" target="_blank" rel="noreferrer" class="p-3 bg-slate-800 hover:bg-slate-700 rounded-lg transition-colors border border-slate-700 text-slate-300 hover:text-white">
+                        <i data-lucide="linkedin" class="w-5 h-5"></i>
+                    </a>
+                    <a href="mailto:anuragle100@gmail.com" class="p-3 bg-slate-800 hover:bg-slate-700 rounded-lg transition-colors border border-slate-700 text-slate-300 hover:text-white">
+                        <i data-lucide="mail" class="w-5 h-5"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Code Block Visual -->
+            <div class="hidden lg:block relative group">
+                <div class="absolute -inset-1 bg-gradient-to-r from-indigo-600 to-emerald-600 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
+                <div class="relative w-80 h-auto bg-slate-900 rounded-2xl border border-slate-800 p-6 flex flex-col font-mono text-xs shadow-2xl">
+                    <div class="flex gap-2 mb-4">
+                        <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                        <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                        <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                    </div>
+                    <div class="space-y-2 text-slate-400">
+                        <p><span class="text-purple-400">package</span> main</p>
+                        <p><span class="text-purple-400">import</span> "fmt"</p>
+                        <br/>
+                        <p><span class="text-indigo-400">type</span> Engineer <span class="text-indigo-400">struct</span> {</p>
+                        <p class="pl-4">Name <span class="text-slate-500">string</span></p>
+                        <p class="pl-4">Role <span class="text-slate-500">string</span></p>
+                        <p class="pl-4">Stack []<span class="text-slate-500">string</span></p>
+                        <p class="pl-4">Efficiency <span class="text-slate-500">string</span></p>
+                        <p>}</p>
+                        <br/>
+                        <p><span class="text-indigo-400">func</span> main() {</p>
+                        <p class="pl-4">engineer := Engineer{</p>
+                        <p class="pl-8">Name: <span class="text-emerald-400">"Anurag"</span>,</p>
+                        <p class="pl-8">Role: <span class="text-emerald-400">"Sr. Software Engineer"</span>,</p>
+                        <p class="pl-8">Stack: []string{<span class="text-emerald-400">"Golang"</span>, <span class="text-emerald-400">"Distributed Systems"</span>},</p>
+                        <p class="pl-8">Efficiency: <span class="text-emerald-400">"99.9%"</span>,</p>
+                        <p class="pl-4">}</p>
+                        <p class="pl-4">fmt.Println(<span class="text-emerald-400">"Building the future..."</span>)</p>
+                        <p>}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Metrics Banner -->
+    <section class="border-y border-slate-800 bg-slate-900/50 backdrop-blur-sm relative z-10">
+        <div class="max-w-6xl mx-auto px-6 py-8 grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div class="text-center">
+                <div class="text-2xl md:text-3xl font-bold text-white mb-1">1000+</div>
+                <div class="text-xs md:text-sm text-slate-500 font-medium uppercase tracking-wider">Requests/Sec</div>
+            </div>
+            <div class="text-center">
+                <div class="text-2xl md:text-3xl font-bold text-white mb-1">99.9%</div>
+                <div class="text-xs md:text-sm text-slate-500 font-medium uppercase tracking-wider">Uptime</div>
+            </div>
+            <div class="text-center">
+                <div class="text-2xl md:text-3xl font-bold text-white mb-1">97%</div>
+                <div class="text-xs md:text-sm text-slate-500 font-medium uppercase tracking-wider">Efficiency Boost</div>
+            </div>
+            <div class="text-center">
+                <div class="text-2xl md:text-3xl font-bold text-white mb-1">4+ Years</div>
+                <div class="text-xs md:text-sm text-slate-500 font-medium uppercase tracking-wider">Experience</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-24 px-6 max-w-4xl mx-auto relative z-10">
+        <div class="flex items-center gap-4 mb-16">
+            <i data-lucide="briefcase" class="text-indigo-400 w-8 h-8"></i>
+            <h2 class="text-3xl font-bold text-white">Professional Experience</h2>
+        </div>
+
+        <div class="space-y-12">
+            
+            <!-- HashiCorp -->
+            <div class="relative pl-8 md:pl-0 experience-item">
+                <div class="hidden md:block absolute left-[150px] top-0 bottom-0 w-px bg-slate-800"></div>
+                <div class="md:flex gap-12 group">
+                    <div class="md:w-[150px] md:text-right shrink-0 mb-4 md:mb-0 relative">
+                        <div class="hidden md:block absolute -right-[5px] top-2 w-2.5 h-2.5 rounded-full bg-slate-600 group-hover:bg-indigo-500 ring-4 ring-slate-950 transition-colors"></div>
+                        <div class="text-sm font-medium text-emerald-400 mb-1">Apr 2025 -- Present</div>
+                        <h3 class="text-lg font-bold text-white">HashiCorp</h3>
+                        <div class="text-xs text-slate-500">USA (Remote)</div>
+                    </div>
+                    <div class="flex-1">
+                        <div class="md:hidden absolute left-0 top-2 w-2.5 h-2.5 rounded-full bg-indigo-500"></div>
+                        <div class="md:hidden absolute left-[4px] top-4 bottom-0 w-px bg-slate-800"></div>
+                        <h4 class="text-xl font-semibold text-slate-200 mb-4 group-hover:text-indigo-300 transition-colors">Software Engineer II</h4>
+                        <ul class="space-y-3 text-slate-400 mb-6 text-sm leading-relaxed">
+                            <li class="flex items-start gap-3"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-slate-600 shrink-0"></span><span>Developed AI-based model with <span class="text-white font-medium">Vault MCP</span> for automating operations.</span></li>
+                            <li class="flex items-start gap-3"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-slate-600 shrink-0"></span><span>Led cluster upgradation initiatives for major/minor versions with zero-downtime.</span></li>
+                            <li class="flex items-start gap-3"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-slate-600 shrink-0"></span><span>Architected intelligent automation reducing manual admin tasks by <span class="text-white font-medium">80%</span>.</span></li>
+                        </ul>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-slate-800/50 border border-slate-700/50 rounded-full text-xs font-medium text-slate-300">Vault</span>
+                            <span class="px-3 py-1 bg-slate-800/50 border border-slate-700/50 rounded-full text-xs font-medium text-slate-300">AI/ML</span>
+                            <span class="px-3 py-1 bg-slate-800/50 border border-slate-700/50 rounded-full text-xs font-medium text-slate-300">Go</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Shiba Inu -->
+            <div class="relative pl-8 md:pl-0 experience-item">
+                <div class="hidden md:block absolute left-[150px] top-0 bottom-0 w-px bg-slate-800"></div>
+                <div class="md:flex gap-12 group">
+                    <div class="md:w-[150px] md:text-right shrink-0 mb-4 md:mb-0 relative">
+                        <div class="hidden md:block absolute -right-[5px] top-2 w-2.5 h-2.5 rounded-full bg-slate-600 group-hover:bg-indigo-500 ring-4 ring-slate-950 transition-colors"></div>
+                        <div class="text-sm font-medium text-emerald-400 mb-1">Jun 2024 -- Feb 2025</div>
+                        <h3 class="text-lg font-bold text-white">Shiba Inu</h3>
+                        <div class="text-xs text-slate-500">USA (Remote)</div>
+                    </div>
+                    <div class="flex-1">
+                        <div class="md:hidden absolute left-0 top-2 w-2.5 h-2.5 rounded-full bg-indigo-500"></div>
+                        <div class="md:hidden absolute left-[4px] top-4 bottom-0 w-px bg-slate-800"></div>
+                        <h4 class="text-xl font-semibold text-slate-200 mb-4 group-hover:text-indigo-300 transition-colors">Senior Software Engineer</h4>
+                        <ul class="space-y-3 text-slate-400 mb-6 text-sm leading-relaxed">
+                            <li class="flex items-start gap-3"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-slate-600 shrink-0"></span><span>Architected ticketing system handling <span class="text-white font-medium">100k+</span> daily messages via <span class="text-white font-medium">NATS</span>.</span></li>
+                            <li class="flex items-start gap-3"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-slate-600 shrink-0"></span><span>Engineered payment infra with <span class="text-white font-medium">Web3</span> integration achieving <span class="text-white font-medium">1200 TPS</span>.</span></li>
+                            <li class="flex items-start gap-3"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-slate-600 shrink-0"></span><span>Scaled ad platform to <span class="text-white font-medium">900+</span> monthly impressions per campaign.</span></li>
+                            <li class="flex items-start gap-3"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-slate-600 shrink-0"></span><span>Reduced infra costs by <span class="text-white font-medium">65%</span> using dedicated worker patterns.</span></li>
+                        </ul>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-slate-800/50 border border-slate-700/50 rounded-full text-xs font-medium text-slate-300">Web3</span>
+                            <span class="px-3 py-1 bg-slate-800/50 border border-slate-700/50 rounded-full text-xs font-medium text-slate-300">Solidity</span>
+                            <span class="px-3 py-1 bg-slate-800/50 border border-slate-700/50 rounded-full text-xs font-medium text-slate-300">Go</span>
+                            <span class="px-3 py-1 bg-slate-800/50 border border-slate-700/50 rounded-full text-xs font-medium text-slate-300">NATS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kuvera -->
+            <div class="relative pl-8 md:pl-0 experience-item">
+                <div class="hidden md:block absolute left-[150px] top-0 bottom-0 w-px bg-slate-800"></div>
+                <div class="md:flex gap-12 group">
+                    <div class="md:w-[150px] md:text-right shrink-0 mb-4 md:mb-0 relative">
+                        <div class="hidden md:block absolute -right-[5px] top-2 w-2.5 h-2.5 rounded-full bg-slate-600 group-hover:bg-indigo-500 ring-4 ring-slate-950 transition-colors"></div>
+                        <div class="text-sm font-medium text-emerald-400 mb-1">Sep 2021 -- Jun 2024</div>
+                        <h3 class="text-lg font-bold text-white">Kuvera (CRED)</h3>
+                        <div class="text-xs text-slate-500">Bengaluru, KA</div>
+                    </div>
+                    <div class="flex-1">
+                        <div class="md:hidden absolute left-0 top-2 w-2.5 h-2.5 rounded-full bg-indigo-500"></div>
+                        <div class="md:hidden absolute left-[4px] top-4 bottom-0 w-px bg-slate-800"></div>
+                        <h4 class="text-xl font-semibold text-slate-200 mb-4 group-hover:text-indigo-300 transition-colors">Senior Software Engineer</h4>
+                        <ul class="space-y-3 text-slate-400 mb-6 text-sm leading-relaxed">
+                            <li class="flex items-start gap-3"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-slate-600 shrink-0"></span><span>Spearheaded NPS platform development from concept to prod in 30 days.</span></li>
+                            <li class="flex items-start gap-3"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-slate-600 shrink-0"></span><span>Improved system efficiency by <span class="text-white font-medium">97%</span> through Rails optimization.</span></li>
+                            <li class="flex items-start gap-3"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-slate-600 shrink-0"></span><span>Maintained <span class="text-white font-medium">99.9%</span> uptime for critical financial systems.</span></li>
+                            <li class="flex items-start gap-3"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-slate-600 shrink-0"></span><span>Led a team of 3 engineers for EPF and US Stocks platforms.</span></li>
+                        </ul>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-slate-800/50 border border-slate-700/50 rounded-full text-xs font-medium text-slate-300">Ruby on Rails</span>
+                            <span class="px-3 py-1 bg-slate-800/50 border border-slate-700/50 rounded-full text-xs font-medium text-slate-300">FinTech</span>
+                            <span class="px-3 py-1 bg-slate-800/50 border border-slate-700/50 rounded-full text-xs font-medium text-slate-300">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Axelor -->
+            <div class="relative pl-8 md:pl-0 experience-item">
+                <div class="hidden md:block absolute left-[150px] top-0 bottom-0 w-px bg-slate-800"></div>
+                <div class="md:flex gap-12 group">
+                    <div class="md:w-[150px] md:text-right shrink-0 mb-4 md:mb-0 relative">
+                        <div class="hidden md:block absolute -right-[5px] top-2 w-2.5 h-2.5 rounded-full bg-slate-600 group-hover:bg-indigo-500 ring-4 ring-slate-950 transition-colors"></div>
+                        <div class="text-sm font-medium text-emerald-400 mb-1">May 2021 -- Sep 2021</div>
+                        <h3 class="text-lg font-bold text-white">Axelor</h3>
+                        <div class="text-xs text-slate-500">Bengaluru, KA</div>
+                    </div>
+                    <div class="flex-1">
+                        <div class="md:hidden absolute left-0 top-2 w-2.5 h-2.5 rounded-full bg-indigo-500"></div>
+                        <div class="md:hidden absolute left-[4px] top-4 bottom-0 w-px bg-slate-800"></div>
+                        <h4 class="text-xl font-semibold text-slate-200 mb-4 group-hover:text-indigo-300 transition-colors">Software Engineer</h4>
+                        <ul class="space-y-3 text-slate-400 mb-6 text-sm leading-relaxed">
+                            <li class="flex items-start gap-3"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-slate-600 shrink-0"></span><span>Built comprehensive GST solutions using Java stack (Guice, JAX-RS).</span></li>
+                            <li class="flex items-start gap-3"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-slate-600 shrink-0"></span><span>Reduced customer onboarding time by 2 days through optimization.</span></li>
+                        </ul>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-slate-800/50 border border-slate-700/50 rounded-full text-xs font-medium text-slate-300">Java</span>
+                            <span class="px-3 py-1 bg-slate-800/50 border border-slate-700/50 rounded-full text-xs font-medium text-slate-300">JAX-RS</span>
+                            <span class="px-3 py-1 bg-slate-800/50 border border-slate-700/50 rounded-full text-xs font-medium text-slate-300">Guice</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-24 bg-slate-900/30 relative z-10">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="flex items-center gap-4 mb-12">
+                <i data-lucide="cpu" class="text-emerald-400 w-8 h-8"></i>
+                <h2 class="text-3xl font-bold text-white">Technical Arsenal</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Languages -->
+                <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800 hover:border-indigo-500/50 transition-all hover:shadow-xl hover:shadow-indigo-500/10 group glass-card">
+                    <div class="flex items-center gap-3 mb-6 text-indigo-400">
+                        <i data-lucide="code" class="w-6 h-6"></i>
+                        <h3 class="font-bold text-lg text-white">Languages</h3>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-sm text-slate-400 group-hover:text-slate-200">Golang</span>
+                        <span class="text-sm text-slate-400 group-hover:text-slate-200">Ruby</span>
+                        <span class="text-sm text-slate-400 group-hover:text-slate-200">Python</span>
+                        <span class="text-sm text-slate-400 group-hover:text-slate-200">Java</span>
+                        <span class="text-sm text-slate-400 group-hover:text-slate-200">Node.js</span>
+                        <span class="text-sm text-slate-400 group-hover:text-slate-200">TypeScript</span>
+                        <span class="text-sm text-slate-400 group-hover:text-slate-200">Solidity</span>
+                        <span class="text-sm text-slate-400 group-hover:text-slate-200">Haskell</span>
+                    </div>
+                </div>
+
+                <!-- Frameworks -->
+                <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800 hover:border-emerald-500/50 transition-all hover:shadow-xl hover:shadow-emerald-500/10 group glass-card">
+                    <div class="flex items-center gap-3 mb-6 text-emerald-400">
+                        <i data-lucide="layers" class="w-6 h-6"></i>
+                        <h3 class="font-bold text-lg text-white">Frameworks</h3>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-sm text-slate-400 group-hover:text-slate-200">Rails</span>
+                        <span class="text-sm text-slate-400 group-hover:text-slate-200">Echo</span>
+                        <span class="text-sm text-slate-400 group-hover:text-slate-200">React</span>
+                        <span class="text-sm text-slate-400 group-hover:text-slate-200">Next.js</span>
+                        <span class="text-sm text-slate-400 group-hover:text-slate-200">Web3.js</span>
+                        <span class="text-sm text-slate-400 group-hover:text-slate-200">Spring Boot</span>
+                        <span class="text-sm text-slate-400 group-hover:text-slate-200">Flutter</span>
+                    </div>
+                </div>
+
+                <!-- Databases -->
+                <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800 hover:border-purple-500/50 transition-all hover:shadow-xl hover:shadow-purple-500/10 group glass-card">
+                    <div class="flex items-center gap-3 mb-6 text-purple-400">
+                        <i data-lucide="database" class="w-6 h-6"></i>
+                        <h3 class="font-bold text-lg text-white">Databases</h3>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-sm text-slate-400 group-hover:text-slate-200">PostgreSQL</span>
+                        <span class="text-sm text-slate-400 group-hover:text-slate-200">MySQL</span>
+                        <span class="text-sm text-slate-400 group-hover:text-slate-200">MongoDB</span>
+                        <span class="text-sm text-slate-400 group-hover:text-slate-200">Redis</span>
+                        <span class="text-sm text-slate-400 group-hover:text-slate-200">Neo4j</span>
+                        <span class="text-sm text-slate-400 group-hover:text-slate-200">Elasticsearch</span>
+                    </div>
+                </div>
+
+                <!-- Infrastructure -->
+                <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800 hover:border-blue-500/50 transition-all hover:shadow-xl hover:shadow-blue-500/10 group glass-card">
+                    <div class="flex items-center gap-3 mb-6 text-blue-400">
+                        <i data-lucide="server" class="w-6 h-6"></i>
+                        <h3 class="font-bold text-lg text-white">Infrastructure</h3>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-sm text-slate-400 group-hover:text-slate-200">Docker</span>
+                        <span class="text-sm text-slate-400 group-hover:text-slate-200">Kubernetes</span>
+                        <span class="text-sm text-slate-400 group-hover:text-slate-200">AWS</span>
+                        <span class="text-sm text-slate-400 group-hover:text-slate-200">Prometheus</span>
+                        <span class="text-sm text-slate-400 group-hover:text-slate-200">Grafana</span>
+                        <span class="text-sm text-slate-400 group-hover:text-slate-200">ELK Stack</span>
+                        <span class="text-sm text-slate-400 group-hover:text-slate-200">Nginx</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-24 px-6 max-w-6xl mx-auto relative z-10">
+        <div class="flex items-center gap-4 mb-12">
+            <i data-lucide="terminal" class="text-indigo-400 w-8 h-8"></i>
+            <h2 class="text-3xl font-bold text-white">Notable Projects & Internships</h2>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6">
+            <!-- ARTH -->
+            <div class="group relative p-8 rounded-2xl bg-slate-900 border border-slate-800 hover:border-indigo-500/50 transition-all glass-card">
+                <div class="absolute top-8 right-8 text-slate-700 group-hover:text-indigo-400 transition-colors">
+                    <i data-lucide="globe" class="w-6 h-6"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">ARTH Stablecoin (Vezures)</h3>
+                <p class="text-slate-400 text-sm mb-6 leading-relaxed">
+                    Pioneered India's first rupee-based stablecoin and built MAHA DAO on Polygon Network. Implemented complex smart contract logic for stability mechanisms.
+                </p>
+                <div class="flex gap-3">
+                    <span class="text-xs font-mono text-emerald-400">Blockchain</span>
+                    <span class="text-xs font-mono text-emerald-400">Solidity</span>
+                    <span class="text-xs font-mono text-emerald-400">Polygon</span>
+                </div>
+            </div>
+
+            <!-- Cloud Security -->
+            <div class="group relative p-8 rounded-2xl bg-slate-900 border border-slate-800 hover:border-indigo-500/50 transition-all glass-card">
+                <div class="absolute top-8 right-8 text-slate-700 group-hover:text-indigo-400 transition-colors">
+                    <i data-lucide="code" class="w-6 h-6"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">Cloud Security Scanner (CloudDFN)</h3>
+                <p class="text-slate-400 text-sm mb-6 leading-relaxed">
+                    Developed a Python-based cloud security scanner with extremely low latency (35ms). Optimized scanning algorithms for real-time threat detection.
+                </p>
+                <div class="flex gap-3">
+                    <span class="text-xs font-mono text-emerald-400">Python</span>
+                    <span class="text-xs font-mono text-emerald-400">Security</span>
+                    <span class="text-xs font-mono text-emerald-400">Cloud</span>
+                </div>
+            </div>
+
+            <!-- Search Engine -->
+            <div class="group relative p-8 rounded-2xl bg-slate-900 border border-slate-800 hover:border-indigo-500/50 transition-all glass-card">
+                <div class="absolute top-8 right-8 text-slate-700 group-hover:text-indigo-400 transition-colors">
+                    <i data-lucide="database" class="w-6 h-6"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">Document Search Engine (LectureNotes)</h3>
+                <p class="text-slate-400 text-sm mb-6 leading-relaxed">
+                    Enhanced document search efficiency by 80% using Elasticsearch. Implemented advanced query parsing and indexing strategies.
+                </p>
+                <div class="flex gap-3">
+                    <span class="text-xs font-mono text-emerald-400">Elasticsearch</span>
+                    <span class="text-xs font-mono text-emerald-400">Search Optimization</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="py-24 bg-slate-900/30 border-t border-slate-800 relative z-10">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="flex items-center gap-4 mb-12">
+                <i data-lucide="graduation-cap" class="text-emerald-400 w-8 h-8"></i>
+                <h2 class="text-3xl font-bold text-white">Education</h2>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="p-6 border-l-2 border-indigo-500 bg-slate-900/50">
+                    <div class="text-sm text-indigo-400 font-medium mb-1">2024 -- 2026</div>
+                    <h3 class="text-xl font-bold text-white mb-1">MBA (Finance)</h3>
+                    <p class="text-slate-400">Indian Institute of Technology -- Patna, Bihar</p>
+                </div>
+                <div class="p-6 border-l-2 border-slate-700 hover:border-indigo-500 transition-colors bg-slate-900/50">
+                    <div class="text-sm text-slate-500 font-medium mb-1">2017 -- 2021</div>
+                    <h3 class="text-xl font-bold text-white mb-1">B.Tech (Computer Science)</h3>
+                    <p class="text-slate-400">Silicon Institute of Engineering -- Bhubaneswar, Odisha</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-slate-800 text-center relative z-10">
+        <div class="flex justify-center gap-6 mb-8">
+            <a href="https://github.com/anurag925" target="_blank" class="text-slate-500 hover:text-white transition-colors"><i data-lucide="github" class="w-6 h-6"></i></a>
+            <a href="https://linkedin.com/in/anu1rag" target="_blank" class="text-slate-500 hover:text-white transition-colors"><i data-lucide="linkedin" class="w-6 h-6"></i></a>
+            <a href="mailto:anuragle100@gmail.com" class="text-slate-500 hover:text-white transition-colors"><i data-lucide="mail" class="w-6 h-6"></i></a>
+        </div>
+        <p class="text-slate-600 text-sm">
+            Designed & Built by Anurag Upadhyay. <br/>
+            <span class="text-slate-700">Powered by HTML, Tailwind & Vanilla JS.</span>
+        </p>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+
+        // Navbar Scroll Effect
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('bg-slate-950/80', 'backdrop-blur-md', 'border-b', 'border-slate-800', 'shadow-lg');
+                navbar.classList.remove('bg-transparent');
+            } else {
+                navbar.classList.remove('bg-slate-950/80', 'backdrop-blur-md', 'border-b', 'border-slate-800', 'shadow-lg');
+                navbar.classList.add('bg-transparent');
+            }
+        });
+
+        // Smooth Scroll Function
+        function scrollToSection(id) {
+            const element = document.getElementById(id);
+            if (element) {
+                const offset = 80; // height of sticky header
+                const bodyRect = document.body.getBoundingClientRect().top;
+                const elementRect = element.getBoundingClientRect().top;
+                const elementPosition = elementRect - bodyRect;
+                const offsetPosition = elementPosition - offset;
+
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            }
+        }
+    </script>
+</body>
 </html>
